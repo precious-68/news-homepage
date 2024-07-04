@@ -201,29 +201,9 @@ main {
     .articles article {
         flex: 1 1 100%;
     }
-
-    .hero-img, .articles img {
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 @media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 5px;
-        text-align: center;
-    }
-
-    nav a {
-        font-size: 0.9rem;
-    }
-
     .hero-content h1 {
         font-size: 1.5rem;
     }
@@ -232,43 +212,11 @@ main {
         font-size: 0.9rem;
     }
 
-    .hero-content .btn {
-        padding: 8px 16px;
-        font-size: 0.9rem;
-    }
-
-    .hero-img, .articles img {
-        width: 100%;
-        height: auto;
-        max-width: 80%; /* Reduced size */
-        margin: 0 auto;
-    }
-
-    .article-content span {
-        font-size: 1.5rem;
-    }
-
     .article-content h2 {
         font-size: 1rem;
     }
 
     .article-content p {
-        font-size: 0.8rem;
-    }
-
-    .sidebar {
-        padding: 15px;
-    }
-
-    .sidebar h2 {
-        font-size: 1.5rem;
-    }
-
-    .sidebar h3 {
-        font-size: 1rem;
-    }
-
-    .sidebar p {
         font-size: 0.8rem;
     }
 }
